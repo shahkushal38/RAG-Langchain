@@ -1,0 +1,29 @@
+Retrieval Augmented Generation - process of optimizing the output of llm, so it references an authoritative knowledge base outside of its training data sources before generating response.
+
+Important terms -
+Data Ingestion Pipeline
+Vectr DB
+Data Parsing | chunks | Embedding
+
+Google Gemini Embedding models
+OpenAI Embedding models
+Huggingg Face Embedding
+
+Semantic Search
+Cosine Search
+Elastick Search
+
+
+query -> Embedding -> Vector DB
+
+Tradition Retrieval Augmented Pipeline gets the query + vectorDB context as prompt to LLM for output
+
+This approach prevents Hallucination
+
+Data can be HTML, EXCEL, SQL, PDF
+
+
+Data Ingestion Techniques - 
+Optimization
+Semantic chunker
+chunking techniques
